@@ -26,7 +26,6 @@ public class Cidade {
         ligacoes.adicionar(ligacao);
     }
 
-    @Override
     public String toString() {
 
         StringBuilder sb = new StringBuilder("Cidade: " + nome + "\n");

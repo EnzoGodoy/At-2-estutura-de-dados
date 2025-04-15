@@ -28,7 +28,6 @@ public class Ligacao {
         return (distancia * fatorTrafego) + (pedagios * 2);
     }
 
-    @Override
     public String toString() {
 
         return "→ " + destino + " | Distância: " + distancia +
